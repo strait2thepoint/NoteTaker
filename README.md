@@ -14,13 +14,6 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 - What did you learn?
 I learned how to require dependencies, use GET & POST and how to specify the port.  Also, I learned how to utilize chatGPT as a tool to better understand the code that I was writing. I asked it to explain the code to me and its functionality, then placed the descriptions in the code so other students can better understand their assignments.  Please note, the green comments are from chatGPT.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
@@ -30,9 +23,9 @@ Clone prjoect.  Run "npm i" in your terminal to install the needed packages.
  After all the packages have been installed, run "node server.js" in your terminal.  This will run the server.  Find the page on your localhost:3001.  To get out of the server CLI, type "control + c".
 
 Provide instructions and examples for use. Include screenshots as needed.
+
 ### Screenshots
-![screenshot]()
-![screenshot]()
+![screenshot](img src="./assets.screenshot.png")
   
 ## Credits
 Starter code:
