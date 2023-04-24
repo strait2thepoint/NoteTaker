@@ -25,7 +25,8 @@ Clone prjoect.  Run "npm i" in your terminal to install the needed packages.
 Provide instructions and examples for use. Include screenshots as needed.
 
 ### Screenshots
-![screenshot](img src="./assets.screenshot.png")
+![screenshot] (img src="./assets.screenshot1.png"),
+![screenshot](https://photos.app.goo.gl/3pB6B97iyu2VYqmy9)
   
 ## Credits
 Starter code:
