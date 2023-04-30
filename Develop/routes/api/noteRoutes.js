@@ -25,12 +25,21 @@ router.post("/", async (req,res) => {
     res.json({message: "Note saved successfully."});
 })
 
+// router.delete('/:id', async (req, res) => {
+//     const currentNotes = await User.destroy({
+//       where: {
+//         id: req.params.id,
+//       },
+//     }).catch((err) => res.json(err));
+//     res.json(currentNotes);
+//   });
 
 router.delete("/:id", async (req,res) => {
     var currentNotes = await readNotes()
     currentNotes = currentNotes.filter(note => note.id !== req.params.id);
     await fs.writeFile(path.join(__dirname, "../../db/db.json"), JSON.stringify(currentNotes));
-    
+    res.status(204).send(); // Send a 204 No Content response to the client
 })
+
 
 module.exports = router

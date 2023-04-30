@@ -20,10 +20,8 @@ I learned how to require dependencies, use GET & POST and how to specify the por
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
-Clone prjoect.  Run "npm i" in your terminal to install the needed packages.  
- After all the packages have been installed, run "node server.js" in your terminal.  This will run the server.  Find the page on your localhost:3001.  To get out of the server CLI, type "control + c".
-
-Provide instructions and examples for use. Include screenshots as needed.
+Clone prjoect. "cd" into "Develop" and then into "utils".  Run "npm i" in your terminal to install the needed packages.  
+After all the packages have been installed, run "node server.js" in your terminal.  This will run the server.  Find the page on your localhost:3001.  To get out of the server CLI, type "control + c".
 
 ### Screenshots
 ![screenshot] (img src= https://photos.app.goo.gl/3pB6B97iyu2VYqmy9)
